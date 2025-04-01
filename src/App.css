@@ -40,10 +40,10 @@
 .read-the-docs {
   color: #888;
 }
-.button {
+button {
   margin-left: 50px;
 }
-.button:hover {
+button:hover {
   background-color: rgb(81, 80, 80);
   color: rgb(193, 215, 235);
 }

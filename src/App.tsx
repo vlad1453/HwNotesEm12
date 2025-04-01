@@ -26,9 +26,7 @@ function App() {
           onChange={(e) => setText(e.target.value)}
           placeholder="Введіть нотатку..."
         />
-        <button onClick={handleClick} className="button">
-          Додати
-        </button>
+        <button onClick={handleClick}>Додати</button>
       </ContainerCtrucure>
       <ol>
         {massive.map((obj) => (
